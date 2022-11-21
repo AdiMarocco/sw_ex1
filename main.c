@@ -4,7 +4,7 @@
 /*int main()
 {
     printf("%d\n",isStrong(145));
-    printf("%d\n",isPrime(11));
+    printf("%d\n",isPrime(4));
     printf("%d\n",isArmstrong(1634)); 
     printf("%d\n",isPalindrome(12345321)); 
    

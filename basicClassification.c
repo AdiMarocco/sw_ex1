@@ -36,8 +36,8 @@ int isPrime(int x)
 {
     int d = sqrt(x); //run till the squre of x according to rule 
     if (x==1){
-        return 1;} //1 is prime in this work
-    for(int i=2; i<d; i++){
+        return true;} //1 is prime in this work
+    for(int i=2; i<(d+1) ; i++){
         if(x%i==0){ 
             return false;}
     }

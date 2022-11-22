@@ -7,15 +7,13 @@
 //function to calculate the factorial
 int Factorial(int x)
 {
-    
     int i=x;
     int sum=1; 
     while (i>0){ //loop i*(i-1)*...*1
         sum*=i;
         i--;
     }
-    return sum; 
-}
+    return sum; }
 
 int isStrong(int x)
 {
@@ -30,7 +28,7 @@ int isStrong(int x)
     }
     if (sum==x){ //in the end if sum equal to the x - strong number
             return true;}
-return 0; } //else its not a strong number
+return false; } //else its not a strong number
 
 
 int isPrime(int x)

@@ -6,6 +6,7 @@
 #define true 1
 
 int isArmstrong_recursive(int x,int sum, int n){
+    //stop when the x=0
     if (x==0&&sum==0){
         return true; }
     if (x==0&&sum!=0){return false; }

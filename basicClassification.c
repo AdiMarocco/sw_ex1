@@ -7,6 +7,7 @@
 //function to calculate the factorial
 int Factorial(int x)
 {
+    int y =129;
     int i=x;
     int sum=1; 
     while (i>0){ //loop i*(i-1)*...*1
